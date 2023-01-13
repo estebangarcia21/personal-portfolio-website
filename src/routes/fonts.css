@@ -1,0 +1,17 @@
+/* Poppins */
+@import '@fontsource/poppins';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+
+/* Open Sans */
+@import '@fontsource/open-sans';
+@import '@fontsource/open-sans/500.css';
+@import '@fontsource/open-sans/600.css';
+@import '@fontsource/open-sans/700.css';
+
+/* Jetbrains Mono */
+@import '@fontsource/jetbrains-mono';
+@import '@fontsource/jetbrains-mono/500.css';
+@import '@fontsource/jetbrains-mono/600.css';
+@import '@fontsource/jetbrains-mono/700.css';
