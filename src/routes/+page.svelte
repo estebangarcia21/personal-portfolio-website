@@ -96,8 +96,8 @@
 			</Project>
 			<Project
 				title="SWE Club Website"
-				href="https://github.com/estebangarcia21/fullstack-developers-website"
-				externalViewHref="https://fullstack-developers-website.vercel.app/"
+				href="https://github.com/estebangarcia21/software-developers-club"
+				externalViewHref="https://www.franklinsoftwaredevelopers.com/"
 				>The official website for the Franklin Full Stack Developers Club.</Project
 			>
 			<Project title="Subprocess" href="https://github.com/estebangarcia21/subprocess">
@@ -109,6 +109,12 @@
 			>
 				A game server written in Kotlin with an average of 65 players online at a time.
 			</Project>
+			<Project
+				title="SWE Club Website Concept"
+				href="https://github.com/estebangarcia21/fullstack-developers-website"
+				externalViewHref="https://fullstack-developers-website.vercel.app/"
+				>The concept website for the Franklin Full Stack Developers Club.</Project
+			>
 		</div>
 
 		<p class="text-center italic text-coolGray-500 mt-8">And more on github...</p>
