@@ -5,10 +5,10 @@
 @tailwind utilities;
 
 :root {
-	--font-family-text: 'Jetbrains Mono', sans-serif;
-	--font-family-pg: 'Jetbrains Mono', sans-serif;
+	--font-family-text: 'Poppins', sans-serif;
+	--font-family-pg: 'Poppins', sans-serif;
 	--font-family-monospace: 'Jetbrains Mono', monospace;
-	--bg-color: black;
+	--bg-color: rgb(1, 1, 15);
 }
 
 * {
@@ -21,10 +21,12 @@ h2 {
 	font-family: var(--font-family-text);
 }
 
-* {
+li,
+p,
+a {
 	font-family: var(--font-family-pg);
 }
 
 body {
-	background-color: black;
+	background-color: var(--bg-color);
 }
