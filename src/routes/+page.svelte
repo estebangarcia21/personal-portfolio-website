@@ -64,8 +64,12 @@
 				world through Computer Science!
 			</p>
 
-			<p class="rounded-sm px-1 sm:text-center bg-emerald-500 font-bold text-black mt-8 uppercase">
-				I am currently looking for a new role as a junior developer
+			<p class="mt-8">
+				<span
+					class="rounded-sm px-1 sm:text-center bg-emerald-500 font-bold text-black mt-8 uppercase"
+				>
+					I am currently looking for a new role as a junior developer
+				</span>
 			</p>
 
 			<p class="mt-8">
