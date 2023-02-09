@@ -22,7 +22,7 @@
 
 				{#if active}
 					<p
-						class="px-2 text-xs bg-indigo-500 text-white uppercase font-mono font-semibold text-center rounded-full h-max py-[1px]"
+						class="px-3 py-[1.5px] text-[0.65rem] bg-indigo-500 text-white uppercase font-mono font-semibold text-center rounded-full h-max"
 					>
 						In progress
 					</p>
