@@ -3,7 +3,6 @@
 	import linkedin from '$lib/images/logos/linkedin.png';
 	import profile from '$lib/images/profile.jpg';
 	import latestResume from '$lib/resumes/latest.pdf';
-	import { fade } from 'svelte/transition';
 	import Container from './Container.svelte';
 	import Project from './Project.svelte';
 	import SectionTitle from './SectionTitle.svelte';
@@ -81,7 +80,7 @@
 		</div>
 	</div>
 
-	<div class="md:p-8">
+	<div class="md:pl-8">
 		<section class="mb-8 md:mb-12">
 			<SectionTitle value="aboutMe" />
 
@@ -127,7 +126,7 @@
 				<br />
 				<br />
 				Recently, I lead the development of a greenfield project at a fast-paced startup using Typescript,
-				presenting work directly to the CEO and engineering lead. I am very eager to put my experience
+				presenting work directly to the CEO and engineering lead. I am very eager to use my experience
 				to help grow another amazing company.
 			</p>
 		</section>
@@ -136,6 +135,16 @@
 			<SectionTitle value="personalProjects" />
 
 			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-8">
+				<Project
+					title="FHS Website"
+					highlight
+					active
+					href="https://github.com/estebangarcia21/csfhs"
+					externalViewHref="https://csfhs-website.vercel.app/"
+					skills={['NextJS', 'Ruby on Rails', 'ChakraUI', 'Jest']}
+				>
+					A website for the computer science department of the high school I attended.
+				</Project>
 				<Project
 					title="PEX Website"
 					href="https://github.com/estebangarcia21/tbhs-pit-exchange-website"
@@ -190,14 +199,6 @@
 					skills={['Typescript', 'Rust', 'Go']}
 					active
 					>API generation tool from specs such as a GraphQL schema.
-				</Project>
-				<Project
-					title="FHS Website"
-					active
-					href="https://github.com/estebangarcia21/egusd-frhs-csfhs"
-					skills={['NextJS', 'Ruby on Rails', 'ChakraUI', 'Jest']}
-				>
-					A website for the computer science department of the high school I attended.
 				</Project>
 			</div>
 		</section>
