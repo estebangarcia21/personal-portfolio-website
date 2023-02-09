@@ -19,7 +19,7 @@
 
 				{#if active}
 					<p
-						class="px-2 text-xs bg-indigo-500 text-white uppercase font-mono font-semibold text-center rounded-sm h-max py-[1px]"
+						class="px-2 text-xs bg-indigo-500 text-white uppercase font-mono font-semibold text-center rounded-full h-max py-[1px]"
 					>
 						In progress
 					</p>
@@ -30,7 +30,7 @@
 
 		{#if externalViewHref}
 			<a
-				class="flex-1 mt-4 block text-center w-full font-semibold px-4 py-1.5 rounded-sm transition bg-indigo-600 text-white cursor-pointer hover:bg-indigo-500 text-sm"
+				class="flex-1 mt-4 block text-center w-full font-semibold px-4 py-1.5 rounded-full transition bg-indigo-600 text-white cursor-pointer hover:bg-indigo-500 text-sm"
 				rel="noreferrer"
 				target="_blank"
 				href={externalViewHref}>Visit</a

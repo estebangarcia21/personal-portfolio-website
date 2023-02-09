@@ -40,7 +40,7 @@
 						href={latestResume}
 						target="_blank"
 						rel="noreferrer"
-						class="px-8 border-2 bg-indigo-600 text-white border-indigo-600 rounded-sm py-2 font-semibold transition hover:bg-white hover:text-black"
+						class="px-8 bg-indigo-600 text-white rounded-full py-2 font-semibold transition hover:bg-indigo-500"
 					>
 						Resume
 					</a>
@@ -51,9 +51,34 @@
 
 	<div class="my-8 md:my-32">
 		<h1 class="text-4xl md:text-7xl font-semibold">
-			hello, i{"'"}m <span class="text-blue-600 bg-clip-text">esteban</span>
+			hello, i{"'"}m <span class="text-blue-600 bg-clip-text">esteban</span> 👋
 		</h1>
-		<p class="text-lg font-medium">nice to meet you 👋</p>
+		<p class="text-xl font-medium">
+			a self taught Software Engineer with a year of professional experience
+		</p>
+		<div class="flex flex-row items-center space-x-4 mt-2">
+			<div
+				class="bg-white dark:bg-slate-800 p-2 w-8 h-8 ring-1 ring-slate-900/5 dark:ring-slate-200/20 rounded-full flex items-center justify-center"
+			>
+				<svg
+					class="w-4 h-4 text-blue-500 -rotate-90"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+				>
+					<path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+				</svg>
+			</div>
+			<a
+				href="mailto:estebangarcia2121@gmail.com"
+				class="bg-blue-600 px-4 rounded-full font-semibold text-white transition hover:bg-blue-500 py-2 text-sm"
+			>
+				Contact Me
+			</a>
+		</div>
 	</div>
 
 	<div class="md:p-8">
