@@ -39,9 +39,9 @@
 						href={latestResume}
 						target="_blank"
 						rel="noreferrer"
-						class="px-8 bg-indigo-600 text-white rounded-full py-2 font-semibold transition hover:bg-indigo-500"
+						class="px-8 bg-white text-gray-800 border-2 border-indigo-600 rounded-full py-2 font-semibold transition hover:bg-indigo-600 hover:text-white"
 					>
-						Resume
+						View my resume
 					</a>
 				</li>
 			</ul>
@@ -216,6 +216,7 @@
 	.socials li {
 		height: min-content;
 	}
+
 	.socials img {
 		height: 40px;
 	}
