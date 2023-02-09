@@ -2,12 +2,18 @@
 	export let value: string;
 </script>
 
+<p class="prefix mb-2">{'$ cat'}</p>
 <div class="section">
-	<p>{'/'} {value}</p>
+	<div>
+		<p>{value}.txt</p>
+	</div>
 	<hr />
 </div>
 
 <style>
+	.prefix {
+		@apply text-coolGray-200 text-2xl font-semibold font-mono;
+	}
 	.section {
 		@apply flex flex-row items-center flex-wrap mb-6;
 	}
@@ -17,6 +23,10 @@
 	}
 
 	.section hr {
-	@apply border-b-[1px] flex-1 border-[#111111];
+		all: unset;
+		height: 0.05px;
+		background-color: rgb(224, 224, 224);
+		display: inline-block;
+		flex: 1;
 	}
 </style>

@@ -6,9 +6,9 @@
 	export let active: boolean = false;
 </script>
 
-<div>
+<div class="transition-all duration-300 hover:scale-[1.02]">
 	<a
-		class="flex flex-col justify-between h-full rounded-sm p-5 border border-[#131313] cursor-pointer shadow-slate-900/50 shadow-lg"
+		class="flex flex-col justify-between h-full rounded p-5 border cursor-pointer shadow-indigo-100/30 shadow-xl"
 		{href}
 		rel="noreferrer"
 		target="_blank"
@@ -19,7 +19,7 @@
 
 				{#if active}
 					<p
-						class="px-2 text-xs bg-emerald-500 text-black uppercase font-mono font-semibold text-center rounded-sm h-max"
+						class="px-2 text-xs bg-indigo-500 text-white uppercase font-mono font-semibold text-center rounded-sm h-max py-[1px]"
 					>
 						In progress
 					</p>
@@ -30,7 +30,7 @@
 
 		{#if externalViewHref}
 			<a
-				class="flex-1 mt-4 block text-center w-full font-semibold px-4 py-1 rounded-sm transition border border-blue-600 hover:text-white cursor-pointer hover:bg-blue-600"
+				class="flex-1 mt-4 block text-center w-full font-semibold px-4 py-1.5 rounded-sm transition bg-indigo-600 text-white cursor-pointer hover:bg-indigo-500 text-sm"
 				rel="noreferrer"
 				target="_blank"
 				href={externalViewHref}>Visit</a

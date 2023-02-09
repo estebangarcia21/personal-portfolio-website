@@ -6,9 +6,9 @@
 
 :root {
 	--font-family-text: 'Poppins', sans-serif;
-	--font-family-pg: 'Poppins', sans-serif;
+	--font-family-pg: 'Open Sans', sans-serif;
 	--font-family-monospace: 'Jetbrains Mono', monospace;
-	--bg-color: rgb(1, 1, 15);
+	--bg-color: white;
 }
 
 * {
