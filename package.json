@@ -37,6 +37,7 @@
 		"@fontsource/jetbrains-mono": "^4.5.11",
 		"@fontsource/open-sans": "^4.5.13",
 		"@fontsource/poppins": "^4.5.10",
+		"@vercel/analytics": "^0.1.8",
 		"prismjs": "^1.29.0"
 	}
 }
