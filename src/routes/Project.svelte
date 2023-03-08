@@ -32,12 +32,16 @@
 		</div>
 
 		{#if externalViewHref}
-			<a
-				class="flex-1 mt-4 block text-center w-full font-semibold px-4 py-1.5 rounded-full transition bg-indigo-600 text-white cursor-pointer hover:bg-indigo-500 text-sm"
-				rel="noreferrer"
-				target="_blank"
-				href={externalViewHref}>Visit</a
-			>
+			<div class="flex-1">
+				<a
+					class="mt-4 block text-center w-full font-semibold px-4 py-1.5 rounded-full transition bg-indigo-600 text-white cursor-pointer hover:bg-indigo-500 text-sm"
+					rel="noreferrer"
+					target="_blank"
+					href={externalViewHref}
+				>
+					Visit
+				</a>
+			</div>
 		{/if}
 
 		{#if skills.length}

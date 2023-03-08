@@ -10,7 +10,9 @@ module.exports = {
 				...colors
 			},
 			fontFamily: {
-				mono: "'Jetbrains Mono', monospace"
+				sans: ['"Sora"', 'sans-serif'],
+				body: ['"Karla"', 'sans-serif'],
+				mono: ['"Jetbrains Mono", mono']
 			}
 		}
 	},

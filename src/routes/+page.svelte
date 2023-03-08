@@ -52,9 +52,7 @@
 		<h1 class="text-4xl md:text-7xl font-semibold">
 			hello, i{"'"}m <span class="text-blue-600 bg-clip-text">esteban</span> 👋
 		</h1>
-		<p class="text-xl font-medium">
-			a self taught Software Engineer with a year of professional experience
-		</p>
+		<p class="text-xl font-medium">a self taught Software Engineer</p>
 
 		<div class="flex flex-row items-center mt-2">
 			<div class="w-[50px]">
@@ -128,17 +126,27 @@
 							rel="noreferrer">LinkedIn profile</a
 						>
 					</span>
-					to see my experiences.
+					to see my all of my experiences.
 					<br />
 					<br />
 					Recently, I lead the development of a greenfield project at a fast-paced startup using Typescript,
 					presenting work directly to the CEO and engineering lead. I am very eager to use my experience
 					to help grow another amazing company.
+					<br />
+					<br />
+					Currently, I am architecting AWS deployments, planning projects, and providing consulting for
+					a new startup.
 				</p>
 			</section>
 
 			<section>
 				<SectionTitle value="personalProjects" />
+
+				<p class="mb-8">
+					These are a personal projects I have worked on. I use these projects to advance my
+					learning and sometimes mentor new developers who are interested in learning Web
+					Development.
+				</p>
 
 				<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-8">
 					<Project
